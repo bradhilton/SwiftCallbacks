@@ -6,6 +6,7 @@ target 'SwiftCallbacks' do
 end
 
 target 'SwiftCallbacksTests' do
-
+    use_frameworks!
+    podspec
 end
 

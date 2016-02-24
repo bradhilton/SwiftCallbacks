@@ -11,7 +11,6 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/bradhilton/SwiftCallbacks.git", :tag => "1.0.0" }
 
   s.ios.deployment_target = "8.0"
-  s.osx.deployment_target = "10.9"
 
   s.source_files  = "SwiftCallbacks", "SwiftCallbacks/**/*.{swift,h,m}"
   s.requires_arc = true
