@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1CA43855BD3B4E180D7FF1FF /* Pods_SwiftCallbacksTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A89A6E3B4D5CD9D719CF58B7 /* Pods_SwiftCallbacksTests.framework */; };
 		9B5485C4A3E628802FFAF28D /* Pods_SwiftCallbacks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 156C95B3456D57B9743095A1 /* Pods_SwiftCallbacks.framework */; };
 		A2CE203E1C7D4645005381DF /* SwiftCallbacks.h in Headers */ = {isa = PBXBuildFile; fileRef = A2CE203D1C7D4645005381DF /* SwiftCallbacks.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A2CE20451C7D4645005381DF /* SwiftCallbacks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2CE203A1C7D4645005381DF /* SwiftCallbacks.framework */; };
@@ -15,7 +16,6 @@
 		A2CE20581C7D4690005381DF /* UIBarButtonItem+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CE20551C7D4690005381DF /* UIBarButtonItem+Extensions.swift */; };
 		A2CE20591C7D4690005381DF /* Target.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CE20561C7D4690005381DF /* Target.swift */; };
 		A2CE205B1C7D4E43005381DF /* SwiftCallbacks.podspec in Resources */ = {isa = PBXBuildFile; fileRef = A2CE205A1C7D4E43005381DF /* SwiftCallbacks.podspec */; };
-		E380708A998D005D4EBB6FF8 /* libPods-SwiftCallbacksTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D4DB10321000AB89B9C3B0F6 /* libPods-SwiftCallbacksTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,9 +42,9 @@
 		A2CE20561C7D4690005381DF /* Target.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Target.swift; sourceTree = "<group>"; };
 		A2CE205A1C7D4E43005381DF /* SwiftCallbacks.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SwiftCallbacks.podspec; sourceTree = "<group>"; };
 		A6525FED65CF6C724AFB8F47 /* Pods-SwiftCallbacks.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftCallbacks.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftCallbacks/Pods-SwiftCallbacks.debug.xcconfig"; sourceTree = "<group>"; };
+		A89A6E3B4D5CD9D719CF58B7 /* Pods_SwiftCallbacksTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftCallbacksTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB26DE974BD0E88DD93B5B7A /* Pods-SwiftCallbacksTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftCallbacksTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftCallbacksTests/Pods-SwiftCallbacksTests.release.xcconfig"; sourceTree = "<group>"; };
 		D09FFBD6561A496BC7054494 /* Pods-SwiftCallbacksTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftCallbacksTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftCallbacksTests/Pods-SwiftCallbacksTests.debug.xcconfig"; sourceTree = "<group>"; };
-		D4DB10321000AB89B9C3B0F6 /* libPods-SwiftCallbacksTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SwiftCallbacksTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +61,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2CE20451C7D4645005381DF /* SwiftCallbacks.framework in Frameworks */,
-				E380708A998D005D4EBB6FF8 /* libPods-SwiftCallbacksTests.a in Frameworks */,
+				1CA43855BD3B4E180D7FF1FF /* Pods_SwiftCallbacksTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,8 +71,8 @@
 		9EB929550114BBD4479E8314 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D4DB10321000AB89B9C3B0F6 /* libPods-SwiftCallbacksTests.a */,
 				156C95B3456D57B9743095A1 /* Pods_SwiftCallbacks.framework */,
+				A89A6E3B4D5CD9D719CF58B7 /* Pods_SwiftCallbacksTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
