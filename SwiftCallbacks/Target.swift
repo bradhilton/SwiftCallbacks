@@ -6,6 +6,8 @@
 //  Copyright © 2016 Brad Hilton. All rights reserved.
 //
 
+import UIKit
+
 class Target<T> : NSObject {
     
     typealias Callback = T -> ()

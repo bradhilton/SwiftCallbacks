@@ -6,6 +6,7 @@
 //  Copyright © 2016 Brad Hilton. All rights reserved.
 //
 
+import UIKit
 import AssociatedValues
 
 protocol UIBarButtonItemClosureProtocol {}

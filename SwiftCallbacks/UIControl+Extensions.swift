@@ -6,6 +6,8 @@
 //  Copyright © 2016 Brad Hilton. All rights reserved.
 //
 
+import UIKit
+
 public protocol ControlClosure {}
 
 extension ControlClosure where Self : UIControl {
