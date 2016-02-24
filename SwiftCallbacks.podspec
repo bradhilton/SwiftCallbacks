@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name         = "SwiftCallbacks"
   s.version      = "1.0.0"
-  s.summary      = "Replaces Target-Action Pattern With Callbacks"
+  s.summary      = "Replace Target-Action Pattern With Callbacks"
   s.description  = <<-DESC
                     SwiftCallbacks replaces the Target-Action pattern with callbacks for UIControl and UIBarButtonItem.
                    DESC
