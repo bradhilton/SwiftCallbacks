@@ -1,0 +1,12 @@
+PODS:
+  - AssociatedValues (1.0.1)
+
+DEPENDENCIES:
+  - AssociatedValues
+
+SPEC CHECKSUMS:
+  AssociatedValues: 7c303dc12d04c0edb6fc05c9ccbf1897c7438d0d
+
+PODFILE CHECKSUM: 4e2e0b9bd11477769de3fca672262ede97bc49e1
+
+COCOAPODS: 1.0.0.beta.3
