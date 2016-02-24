@@ -2,7 +2,7 @@
 
 target 'SwiftCallbacks' do
     use_frameworks!
-    pod 'AssociatedValues'
+    podspec
 end
 
 target 'SwiftCallbacksTests' do
