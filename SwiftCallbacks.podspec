@@ -15,5 +15,5 @@ Pod::Spec.new do |s|
 
   s.source_files  = "SwiftCallbacks", "SwiftCallbacks/**/*.{swift,h,m}"
   s.requires_arc = true
-  s.dependency = 'AssociatedValues', '~>1.0.1'
+  s.dependency 'AssociatedValues', '~>1.0.1'
 end
