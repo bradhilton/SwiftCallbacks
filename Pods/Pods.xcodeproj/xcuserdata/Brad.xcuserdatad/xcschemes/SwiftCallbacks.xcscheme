@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '846FFC8CC6016ABBDE037990E7B594DD'
-               BlueprintName = 'AssociatedValues'
+               BlueprintIdentifier = 'FEB598E7112F794690E791E40D2D9E12'
+               BlueprintName = 'SwiftCallbacks'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'AssociatedValues.framework'>
+               BuildableName = 'SwiftCallbacks.framework'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

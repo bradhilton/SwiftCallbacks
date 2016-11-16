@@ -1,0 +1,6 @@
+framework module SwiftCallbacks {
+  umbrella header "SwiftCallbacks-umbrella.h"
+
+  export *
+  module * { export * }
+}

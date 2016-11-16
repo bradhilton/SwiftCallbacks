@@ -1,12 +1,20 @@
 PODS:
-  - AssociatedValues (1.0.1)
+  - AssociatedValues (3.0.0)
+  - SwiftCallbacks (1.0.0):
+    - AssociatedValues (~> 3.0.0)
 
 DEPENDENCIES:
-  - AssociatedValues (~> 1.0.1)
+  - AssociatedValues (~> 3.0.0)
+  - SwiftCallbacks (from `../SwiftCallbacks`)
+
+EXTERNAL SOURCES:
+  SwiftCallbacks:
+    :path: ../SwiftCallbacks
 
 SPEC CHECKSUMS:
-  AssociatedValues: 7c303dc12d04c0edb6fc05c9ccbf1897c7438d0d
+  AssociatedValues: 5c29f5c0bb2672cf9ef0394bcbe3ce28b9fa0c2a
+  SwiftCallbacks: d626db084a20da3dc432ad5ac3ee0a4973b1f649
 
-PODFILE CHECKSUM: ea45a905fb3dbbcb8e0e31b71090ea5c1db831cb
+PODFILE CHECKSUM: 8a1445aa1e8aef788d00a4798b7a475bf6803efa
 
-COCOAPODS: 1.0.0.beta.3
+COCOAPODS: 1.1.1

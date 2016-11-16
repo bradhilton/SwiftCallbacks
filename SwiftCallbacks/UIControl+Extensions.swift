@@ -7,17 +7,18 @@
 //
 
 import UIKit
+import AssociatedValues
 
 public protocol ControlClosure {}
 
 extension ControlClosure where Self : UIControl {
     
-    public typealias ControlCallback = (sender: Self) -> ()
+    public typealias ControlCallback = (_ sender: Self) -> ()
     
-    public func controlEvents(events: UIControlEvents, callback: ControlCallback) {
+    public func controlEvents(_ events: UIControlEvents, callback: @escaping ControlCallback) {
         let target = Target(callback: callback)
-        addTarget(target, action: target.action, forControlEvents: events)
-        objc_setAssociatedObject(self, target.key, target, .OBJC_ASSOCIATION_RETAIN_NONATOMIC)
+        addTarget(target, action: target.action, for: events)
+        set(associatedValue: target, key: NSUUID().uuidString, object: self)
     }
     
 }

@@ -1,5 +1,4 @@
 
-
 target 'SwiftCallbacks' do
     use_frameworks!
     podspec
@@ -10,3 +9,7 @@ target 'SwiftCallbacksTests' do
     podspec
 end
 
+target 'Example' do
+    use_frameworks!
+    pod 'SwiftCallbacks', :path => '../SwiftCallbacks'
+end

@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E8BD60B301652BD251994C4972014C7D"
-               BuildableName = "Pods_SwiftCallbacks.framework"
-               BlueprintName = "Pods-SwiftCallbacks"
+               BlueprintIdentifier = "0503F27087E71598CAFF8A7881BFF7D4"
+               BuildableName = "Pods_Example.framework"
+               BlueprintName = "Pods-Example"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E8BD60B301652BD251994C4972014C7D"
-            BuildableName = "Pods_SwiftCallbacks.framework"
-            BlueprintName = "Pods-SwiftCallbacks"
+            BlueprintIdentifier = "0503F27087E71598CAFF8A7881BFF7D4"
+            BuildableName = "Pods_Example.framework"
+            BlueprintName = "Pods-Example"
             ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

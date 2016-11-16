@@ -10,28 +10,21 @@ import UIKit
 
 class Target<T> : NSObject {
     
-    typealias Callback = T -> ()
+    typealias Callback = (T) -> ()
     
     let callback: Callback
     
     var action: Selector {
-        return "invoke:"
+        return #selector(invoke(sender:))
     }
     
-    let key: UnsafePointer<Void>
-    
-    init(callback: Callback) {
+    init(callback: @escaping Callback) {
         self.callback = callback
-        self.key = pointer.advance()
     }
     
-    convenience init?(callback: Callback?) {
-        if let callback = callback {
-            self.init(callback: callback)
-        } else {
-            self.init(callback: { _ in })
-            return nil
-        }
+    init?(callback: Callback?) {
+        guard let callback = callback else { return nil }
+        self.callback = callback
     }
     
     func invoke(sender: AnyObject) {
@@ -41,14 +34,3 @@ class Target<T> : NSObject {
     }
     
 }
-
-extension UnsafePointer {
-    
-    private mutating func advance() -> UnsafePointer {
-        self = self.advancedBy(1)
-        return self
-    }
-    
-}
-
-private var pointer = UnsafePointer<Void>()
