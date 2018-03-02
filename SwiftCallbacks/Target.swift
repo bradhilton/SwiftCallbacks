@@ -27,7 +27,7 @@ class Target<T> : NSObject {
         self.callback = callback
     }
     
-    func invoke(sender: AnyObject) {
+    @objc func invoke(sender: AnyObject) {
         if let sender = sender as? T {
             callback(sender)
         }
