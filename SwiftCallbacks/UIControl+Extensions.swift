@@ -15,7 +15,7 @@ extension ControlClosure where Self : UIControl {
     
     public typealias ControlCallback = (_ sender: Self) -> ()
     
-    public func controlEvents(_ events: UIControlEvents, callback: @escaping ControlCallback) {
+    public func controlEvents(_ events: UIControl.Event, callback: @escaping ControlCallback) {
         let target = Target(callback: callback)
         addTarget(target, action: target.action, for: events)
         set(associatedValue: target, key: NSUUID().uuidString, object: self)

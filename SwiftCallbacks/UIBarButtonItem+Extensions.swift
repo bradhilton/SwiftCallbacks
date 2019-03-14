@@ -13,21 +13,21 @@ extension UIBarButtonItem {
     
     public typealias Callback = (_ sender: UIBarButtonItem) -> ()
     
-    public convenience init(image: UIImage?, style: UIBarButtonItemStyle, callback: Callback?) {
+    public convenience init(image: UIImage?, style: UIBarButtonItem.Style, callback: Callback?) {
         self.init(image: image, style: style, target: nil, action: nil)
         self.callback = callback
     }
-    public convenience init(image: UIImage?, landscapeImagePhone: UIImage?, style: UIBarButtonItemStyle, callback: Callback?) {
+    public convenience init(image: UIImage?, landscapeImagePhone: UIImage?, style: UIBarButtonItem.Style, callback: Callback?) {
         self.init(image: image, landscapeImagePhone: landscapeImagePhone, style: style, target: nil, action: nil)
         self.callback = callback
     }
     
-    public convenience init(title: String?, style: UIBarButtonItemStyle, callback: Callback?) {
+    public convenience init(title: String?, style: UIBarButtonItem.Style, callback: Callback?) {
         self.init(title: title, style: style, target: nil, action: nil)
         self.callback = callback
     }
     
-    public convenience init(barButtonSystemItem systemItem: UIBarButtonSystemItem, callback: Callback?) {
+    public convenience init(barButtonSystemItem systemItem: UIBarButtonItem.SystemItem, callback: Callback?) {
         self.init(barButtonSystemItem: systemItem, target: nil, action: nil)
         self.callback = callback
     }

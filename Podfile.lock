@@ -1,6 +1,6 @@
 PODS:
   - AssociatedValues (3.0.0)
-  - SwiftCallbacks (1.0.0):
+  - SwiftCallbacks (4.0.0):
     - AssociatedValues (~> 3.0.0)
 
 DEPENDENCIES:
@@ -13,8 +13,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AssociatedValues: 5c29f5c0bb2672cf9ef0394bcbe3ce28b9fa0c2a
-  SwiftCallbacks: d626db084a20da3dc432ad5ac3ee0a4973b1f649
+  SwiftCallbacks: 8fdd3aa74f760075abc49db90a2e6f91f3ddcbec
 
 PODFILE CHECKSUM: 8a1445aa1e8aef788d00a4798b7a475bf6803efa
 
-COCOAPODS: 1.1.1
+COCOAPODS: 1.4.0
