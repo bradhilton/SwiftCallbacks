@@ -223,7 +223,6 @@
 				A2CE20361C7D4645005381DF /* Frameworks */,
 				A2CE20371C7D4645005381DF /* Headers */,
 				A2CE20381C7D4645005381DF /* Resources */,
-				0AB54495BC7AE5721F60A148 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -243,7 +242,6 @@
 				A2CE20411C7D4645005381DF /* Frameworks */,
 				A2CE20421C7D4645005381DF /* Resources */,
 				69DC575EE06286BA0C8E266F /* [CP] Embed Pods Frameworks */,
-				5E616A711BA2EF74ECECFCEA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -264,7 +262,6 @@
 				A2DC2F941DDBD61400059847 /* Frameworks */,
 				A2DC2F951DDBD61400059847 /* Resources */,
 				1285E1535904E0EB2B90130C /* [CP] Embed Pods Frameworks */,
-				29A9743D8B603DB2444BD116 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -305,11 +302,11 @@
 				TargetAttributes = {
 					A2CE20391C7D4645005381DF = {
 						CreatedOnToolsVersion = 7.2.1;
-						LastSwiftMigration = 0920;
+						LastSwiftMigration = 1020;
 					};
 					A2CE20431C7D4645005381DF = {
 						CreatedOnToolsVersion = 7.2.1;
-						LastSwiftMigration = 0920;
+						LastSwiftMigration = 1020;
 					};
 					A2DC2F961DDBD61400059847 = {
 						CreatedOnToolsVersion = 8.1;
@@ -327,6 +324,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -378,28 +376,13 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0AB54495BC7AE5721F60A148 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftCallbacks/Pods-SwiftCallbacks-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		1285E1535904E0EB2B90130C /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Example/Pods-Example-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-Example/Pods-Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AssociatedValues-iOS10.1/AssociatedValues.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftCallbacks/SwiftCallbacks.framework",
 			);
@@ -410,7 +393,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Example/Pods-Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Example/Pods-Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		23AA0AEE62A806352BFEE8CB /* [CP] Check Pods Manifest.lock */ = {
@@ -431,43 +414,13 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		29A9743D8B603DB2444BD116 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Example/Pods-Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		5E616A711BA2EF74ECECFCEA /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftCallbacksTests/Pods-SwiftCallbacksTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		69DC575EE06286BA0C8E266F /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-SwiftCallbacksTests/Pods-SwiftCallbacksTests-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftCallbacksTests/Pods-SwiftCallbacksTests-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AssociatedValues-iOS8.0/AssociatedValues.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -476,7 +429,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftCallbacksTests/Pods-SwiftCallbacksTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftCallbacksTests/Pods-SwiftCallbacksTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C6ABBDAE2C65EECCDF6FF403 /* [CP] Check Pods Manifest.lock */ = {
@@ -693,8 +646,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -715,8 +667,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.bradhilton.SwiftCallbacks;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -729,8 +680,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bradhilton.SwiftCallbacksTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -743,8 +693,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bradhilton.SwiftCallbacksTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
